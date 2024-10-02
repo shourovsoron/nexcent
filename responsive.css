@@ -44,7 +44,8 @@
         display: block;
         position: absolute;
         top: 99%;
-        left: 0;
+        left: 50%;
+        transform: translateX(-50%);
         width: 100%;
         background-color: var(--clr-silver);
         z-index: 6;
@@ -176,11 +177,29 @@
     }
 
     .get-demo h2 {
-        line-height: 5.6rem;
+        line-height: 5rem;
     }
 
     .logos-slide img {
         margin: 0px 30px;
 
     }
+
+
+
+    
+footer form div{
+    max-width: none;
+
+
+
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    flex-wrap: wrap;
+  }
+  
 }

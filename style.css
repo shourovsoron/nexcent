@@ -815,3 +815,112 @@ font-weight: var(--fw-semi-bold);
   line-height: 7.6rem;
   margin-bottom: 3.2rem;
 }
+
+
+
+footer{
+  background-color: #263238;
+  padding: 6.4rem 0;
+  color: #fff;
+}
+
+footer h4{
+  color: #fff;
+}
+
+.footer-wrapper{
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  flex-wrap: wrap;
+}
+
+
+footer .first-column span{
+  display: block;
+  margin-top: .8rem;
+}
+
+footer .first-column{
+  flex-grow: 1;
+}
+.footer-social{
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+
+}
+
+.footer-social li a{
+  display: inline-block;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 100vmax;
+  -webkit-border-radius: 100vmax;
+  -moz-border-radius: 100vmax;
+  -ms-border-radius: 100vmax;
+  -o-border-radius: 100vmax;
+  background-color: #ffffff5d;
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  text-align: center;
+
+}
+
+footer .menu ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 2.4rem;
+  color: #fff;
+  
+
+}
+
+footer .menu ul li a{
+  color: #fff;
+}
+
+footer form{
+  /* max-width: 25.5rem;
+  height: 4rem;
+  margin-top: 2.4rem; */
+}
+
+footer form div{
+  max-width: 25.5rem;
+  width: 100%;
+  height: 4rem;
+  margin-top: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: stretch;
+  background: #ffffff41;
+  padding: 0 1.6rem;
+  border-radius: .8rem;
+  -webkit-border-radius: .8rem;
+  -moz-border-radius: .8rem;
+  -ms-border-radius: .8rem;
+  -o-border-radius: .8rem;
+}
+
+footer form div input{
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+footer form div input::placeholder {
+  color: rgba(255, 255, 255, 0.751);
+  opacity: 1; /* Firefox */
+}
+
+footer form div button{
+  font-size: 2rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #fff;
+}
